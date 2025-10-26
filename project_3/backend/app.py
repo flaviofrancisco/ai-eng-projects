@@ -39,6 +39,7 @@ agent = initialize_agent(
     llm,
     agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
     verbose=True,
+    handle_parsing_errors=True,
 )
 # ----------------------------------FASTAPI------------------------------
 
